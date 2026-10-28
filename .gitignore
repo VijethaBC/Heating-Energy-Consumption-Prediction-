@@ -16,7 +16,6 @@ Thumbs.db
 # Large model binaries and archives (>100 MB exceeds GitHub limits)
 # Note: models/20250310_185416/random_forest.pkl is 167MB and will block GitHub push unless ignored or tracked via Git LFS
 *.zip
-models/20250310_185416/*.pkl
 models/20250310_185416/*.keras
 
 # IDE / Editor folders
