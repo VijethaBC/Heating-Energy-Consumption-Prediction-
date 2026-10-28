@@ -1,0 +1,35 @@
+2025-03-10 18:54:16,606 - INFO - Starting model training pipeline
+2025-03-10 18:54:16,606 - INFO - Using datasets: ['uci_energy']
+2025-03-10 18:54:16,606 - INFO - Loading and preprocessing data...
+2025-03-10 18:54:16,688 - INFO - Data split - Training samples: 15788, Test samples: 3947
+2025-03-10 18:54:16,688 - INFO - Training Random Forest model...
+2025-03-10 18:54:16,688 - INFO - Step 1/3: Creating Random Forest model...
+2025-03-10 18:54:16,688 - INFO - Step 2/3: Tuning Random Forest hyperparameters...
+2025-03-10 18:58:27,723 - INFO - Step 3/3: Making predictions...
+2025-03-10 18:58:27,862 - INFO - 
+Random Forest Performance:
+2025-03-10 18:58:27,862 - INFO - RMSE: 65.7937
+2025-03-10 18:58:27,863 - INFO - MAE: 30.8347
+2025-03-10 18:58:27,863 - INFO - R2: 0.5674
+2025-03-10 18:58:27,950 - INFO - Model and metrics saved in models/20250310_185416
+2025-03-10 18:58:27,950 - INFO - Training SVR model...
+2025-03-10 18:58:49,886 - INFO - 
+SVR Performance:
+2025-03-10 18:58:49,887 - INFO - RMSE: 97.9179
+2025-03-10 18:58:49,887 - INFO - MAE: 41.6366
+2025-03-10 18:58:49,887 - INFO - R2: 0.0419
+2025-03-10 18:58:49,889 - INFO - Model and metrics saved in models/20250310_185416
+2025-03-10 18:58:49,889 - INFO - Preparing sequential data...
+2025-03-10 18:58:50,032 - INFO - Training LSTM model...
+2025-03-10 18:59:47,496 - INFO - 
+LSTM Performance:
+2025-03-10 18:59:47,496 - INFO - RMSE: 79.1180
+2025-03-10 18:59:47,496 - INFO - MAE: 38.4361
+2025-03-10 18:59:47,496 - INFO - R2: 0.4099
+2025-03-10 18:59:47,517 - INFO - Training CNN-LSTM model...
+2025-03-10 19:00:12,541 - INFO - 
+CNN-LSTM Performance:
+2025-03-10 19:00:12,541 - INFO - RMSE: 80.5534
+2025-03-10 19:00:12,541 - INFO - MAE: 42.4304
+2025-03-10 19:00:12,541 - INFO - R2: 0.3882
+2025-03-10 19:00:12,555 - INFO - Training pipeline completed successfully!
